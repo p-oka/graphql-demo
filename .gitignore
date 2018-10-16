@@ -1,1 +1,5 @@
-/server
+/app
+/node_modules
+.cache
+/vendor/*
+!/vendor/vendor.json
