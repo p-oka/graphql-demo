@@ -3,6 +3,28 @@
 	"ignore": "test",
 	"package": [
 		{
+			"path": "appengine/cloudsql",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "r89NVOyv2X4KagJNkB7a4rZvMg4=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "361f66ef3b53de1f16b7f2af9ef38a6c159ceb3e",
+			"revisionTime": "2018-10-01T07:22:39Z"
+		},
+		{
+			"checksumSHA1": "fIYdkxwxELY7o6dAJJh/zGvJ2Wk=",
+			"path": "github.com/gocraft/dbr",
+			"revision": "b542ddb88301820e373c3152d83dd6cab8786985",
+			"revisionTime": "2018-10-15T15:00:50Z"
+		},
+		{
+			"checksumSHA1": "86/3M+EhG+PI2ZMVLmETk44QPm4=",
+			"path": "github.com/gocraft/dbr/dialect",
+			"revision": "b542ddb88301820e373c3152d83dd6cab8786985",
+			"revisionTime": "2018-10-15T15:00:50Z"
+		},
+		{
 			"checksumSHA1": "8uAJhvUBakciQPGGeHmF/Q/F+pY=",
 			"path": "github.com/graphql-go/graphql",
 			"revision": "27d83defb22188078c42f517a3b953ea7f97bb8c",
@@ -91,6 +113,12 @@
 			"path": "github.com/jessevdk/go-flags",
 			"revision": "9c49a3351d49777ccd40148b5cdf6f2998f51087",
 			"revisionTime": "2018-10-06T08:32:04Z"
+		},
+		{
+			"checksumSHA1": "LiyXfqOzaeQ8vgYZH3t2hUEdVTw=",
+			"path": "google.golang.org/appengine/cloudsql",
+			"revision": "ae0ab99deb4dc413a2b4bd6c8bdd0eb67f1e4d06",
+			"revisionTime": "2018-09-18T20:26:59Z"
 		}
 	],
 	"rootPath": "github.com/p-oka/graphql-demo"

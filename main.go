@@ -8,7 +8,8 @@ import (
 
 func main() {
 	mux := http.NewServeMux()
-	mux.Handle("/graphql", server.NewHandler())
+
+	mux.Handle("/graphql", server.WithConnection(server.NewHandler()))
 	mux.Handle("/", http.FileServer(Assets))
 
 	err := http.ListenAndServe(":"+os.Getenv("PORT"), mux)

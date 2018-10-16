@@ -6,7 +6,7 @@ import (
 )
 
 var TaskType = graphql.NewObject(graphql.ObjectConfig{
-		Name: "Task",
+		Name: "task",
 		Fields: graphql.Fields{
 			"id": &graphql.Field{
 				Type: graphql.NewNonNull(graphql.ID),
