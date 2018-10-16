@@ -5,7 +5,7 @@
   "description": "graphql demo for supportz colab",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build front/index.html --out-dir=dist",
+    "build": "parcel build front/index.html --no-source-maps --out-dir=dist",
     "clean": "rm -rf dist"
   },
   "repository": {
@@ -19,9 +19,15 @@
   },
   "homepage": "https://github.com/p-oka/graphql-demo#readme",
   "dependencies": {
+    "@material-ui/core": "^3.2.2",
+    "apollo-boost": "^0.1.16",
+    "graphql": "^14.0.2",
     "parcel-bundler": "^1.10.3",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-apollo": "^2.2.4",
+    "react-dom": "^16.5.2",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

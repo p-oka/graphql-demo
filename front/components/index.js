@@ -1,7 +1,13 @@
 import React from "react";
+import { ApolloProvider } from "react-apollo";
+import ApolloClient from "apollo-boost";
+
+import TaskList from "./TaskList";
 
 export default function App() {
   return (
-    <div><h1>Hello World!</h1></div>
+    <ApolloProvider client={new ApolloClient()}>
+      <TaskList />
+    </ApolloProvider>
   );
 }
