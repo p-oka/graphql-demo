@@ -10,7 +10,8 @@ import (
 
 func NewHandler() http.Handler {
 	schema, err := graphql.NewSchema(graphql.SchemaConfig{
-		Query: gql.QueryType,
+		Query:    gql.QueryType,
+		Mutation: gql.MutationType,
 	})
 
 	if err != nil {

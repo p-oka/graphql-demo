@@ -3,15 +3,8 @@ import { graphql } from 'react-apollo'
 import { compose, withProps, branch, renderComponent } from "recompose";
 
 import LoadingScene from "/components/LoadingScene";
+import { GET_TASKS } from "/graphql/queries";
 
-const GET_TASKS = gql`
-  query GetTasks {
-    tasks {
-      id
-      name
-    }
-  }
-`;
 
 const withQuery = graphql(GET_TASKS);
 
