@@ -26,10 +26,10 @@ ref. https://bit.ly/2PCme9M
 $ mysql -h172.0.0.1 -uusername -p < db/create_database.sql
 
 # migration
-$ mysql -h172.0.0.1 -uusername -p < db/create_table.sql
+$ mysql -h172.0.0.1 -uusername -p graphql-demo < db/create_table.sql
 
 # insert seed data
-$ mysql -h172.0.0.1 -uusername -p < db/seed.sql
+$ mysql -h172.0.0.1 -uusername -p graphql-demo < db/seed.sql
 ```
 
 ### 2. Set Environment Variable
